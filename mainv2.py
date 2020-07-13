@@ -275,8 +275,8 @@ def right_lane_finder(img_right_lane):
                     linhasx.append(x)
                     linhasy.append(y)
 
-                # cv2.line(img, (x, y), (w, h), (0, 255, 0), 2)
-                cv2.circle(img, (x, y), 1, (255,0,155), 5)
+                cv2.line(img, (x, y), (w, h), (0, 255, 0), 2)
+                #cv2.circle(img, (x, y), 1, (255,0,155), 5)
 
                 vector2 = [600, 0]
                 sum = (vector[0] ** 2 + vector[1] ** 2) ** (1 / 2) + (vector2[0] ** 2 + vector2[1] ** 2) ** (1 / 2)
@@ -290,10 +290,6 @@ def right_lane_finder(img_right_lane):
         print("Right: " + str(np.polyfit((linhasx), (linhasy), 2)))
     except:
         pass
-
-
-
-
 
     # print("Right: " + str(np.mean(degreea)))
 
