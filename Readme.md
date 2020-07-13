@@ -7,9 +7,6 @@ This project are one of my studies, where i'm trying to make an self-driving
 
 ![Image showing a two windows, where the first have an car, and the seconds have an car with green lines in the road](images/img1.png)
 
-
-![Image showing a two windows, where the first have an car, and the seconds have an car with green lines in the curve of the road](images/img2.png)
-
 ## Usage
 
 Its underwork, but, if you want, just run 
